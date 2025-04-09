@@ -1,0 +1,101 @@
+img
+{
+    float: left;
+    height: 150px;
+}
+.h1
+{
+    color: blue;
+    text-align: center;
+    text-shadow: 2px 2px red;
+    text-transform: uppercase;
+    font-size: 40px;
+}
+
+.h2
+{
+    text-align: center;
+    color: blue;
+    text-shadow: 2px 2px red;
+    font-size: 30px;
+}
+.btn 
+{
+    background-color: blue;
+    color: white;
+    font-size: 20px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+.btn:hover
+{
+    background-color: red;
+    color: white;
+}
+body
+{
+    background-image: url("https://www.w3schools.com/w3images/forestbridge.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.container
+{
+    background-color: #f2f2f2; 
+    padding: 20px;
+    border-radius: 10px;
+    text-align: left;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 30px;
+}
+.col-25 
+{
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+}
+ .col-75 
+{
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+}
+ .row::after  
+{
+    content: "";
+    display: table;
+    clear: both;
+}
+label
+{
+    padding: 12px 12px 12px 0px;
+    display: inline-block;
+}
+input[type=text],select,textarea
+{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+input[type=submit]
+{
+    background-color: #0871e1;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    float: right;
+}
+h2,p
+{
+    text-align: center;
+    color: #0871e1;
+}
