@@ -13,7 +13,7 @@ Course Selection
 
 Gender
 
-File Upload (for documents)
+Adress
 
 ✨ Key Features:
 
